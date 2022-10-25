@@ -9,13 +9,6 @@ provideFluentDesignSystem()
     .register(
         fluentCard()
     );
-    provideFluentDesignSystem()
-    .register(
-        fluentSelect({
-          indicator: `...your indicator...`
-        }),
-        fluentOption()
-    );
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
